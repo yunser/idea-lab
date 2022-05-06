@@ -26,6 +26,14 @@
 * 有一台树莓派，能用来做什么？
 
 
+## Q & A
+
+* 什么是想法？
+    * 主要是瞬时的灵感，也可能是经过思考后总结得出，它不是等同于需求或项目，也未必有太大价值。
+* 什么是实验？
+    * 为了某种目的，比如学习某种编程语言，而设计出来的一系列由简入深的项目。
+
+
 ## 想法列表
 
 * 想法实验室
@@ -34,13 +42,33 @@
         * [想法实验室 - 项目背景](https://mp.weixin.qq.com/s/ssIVF_H7j1QZre4BEQAcsA)
         * [想法超市 - 想法](https://mp.weixin.qq.com/s/zd0r02jScm4mUGkOnZMhNQ)
 * 看地图猜省份
-    * 简介：看中国地图猜出每个省份的名称和省会
+    * 简介：看中国地图猜出每个省份的名称和省会。
     * 相关文章
         * [看地图猜省份名称 - 想法](https://mp.weixin.qq.com/s/E5Npqjue8B_WTFQN3-8RTA)
         * [准备做一个小应用，看地图猜省份名称，大家有什么建议？](https://www.v2ex.com/t/848921)
         * [看地图猜省份名称 - 项目总结](https://mp.weixin.qq.com/s/Nerr9xEy3OQjpgpcI0BeTA)
         * [「看地图猜省份」项目中途弃坑了，只写了个 MVP](https://www.v2ex.com/t/849785)
+* GeoGebra 交互课件制作
+    * 简介：通过 GeoGebra 软件制作一系列实用/有趣的课件。
+    * 相关文章
+        * [GeoGebra 项目](https://mp.weixin.qq.com/s/R-bmuJuUW7DxEROrv9NVmQ)
+        * [GeoGebra 项目阶段总结](https://mp.weixin.qq.com/s/grHIE5MSvO8tGFoVyI2H9w)
 * 中国地形展示
     * 简介：在线展示低多边形风格的中国地形，可以在上面了解中国主要的高山、平原、盆地、河流等地形。点击山川河流可以查看介绍。
     * 思路：先用三维设计软件建模，再用 Three.js 展示出来。
     * 难点：建模
+* 地图风格化
+    * 简介：输入地图的 GeoJSON 数据，或者选择地区，生成一张风格化的地图图片。
+    * 效果
+        * 点阵：https://m.16pic.com/vector/pic_5464946.html
+        * 手绘：https://m.16pic.com/pic/pic_8713200.html
+        * 低多边形：https://m.16pic.com/pic/pic_8728767.html
+* GeoJSON 数据压缩
+    * 简介：做 GIS 应用时，需要考虑地图合规的问题。之前做项目时，我发现合规的 GeoJSON 数据太大，需要减少体积。
+    * 效果：用户可以调整阀值，在地图精确度和体积之间做取舍，牺牲精确度来保证数据大小，以此优化地图加载速度。
+
+<!-- 
+
+## 实验
+
+[查看实验](labs.md) -->
